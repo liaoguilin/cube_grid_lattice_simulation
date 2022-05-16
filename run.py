@@ -7,7 +7,7 @@ import numpy as np
 from glumpy.transforms import *
 from glumpy import app, gl, glm, gloo
 from glumpy.geometry import colorcube
-from auxl.three_d_object_base import *
+from .three_d_object_base import *
 vertex = """
 uniform mat4   u_model;         // Model matrix
 uniform mat4   u_view;          // View matrix
